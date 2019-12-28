@@ -5,7 +5,7 @@ body {
 }
 #header {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(blog-3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(DSC08851.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -51,7 +51,6 @@ body {
 }
 .scroll-bar {
   animation: mover 1s infinite alternate;
-
 }
 /*------create a scoll button when the mouse is moved-----*/
 @keyframes mover {
@@ -67,7 +66,8 @@ body {
 }
 /*--change th height of the image------*/
 .profile-img {
-  height: 400px;
+  height: 500px;
+  width: 500px;
 }
 .nav-bar {
   top: 0;
@@ -81,6 +81,7 @@ body {
 .navbar-brand img {
   height: 50px;
 }
+
 .nav-bar .fa-bars {
   font-size: 35px;
   color: #fff;
@@ -102,6 +103,7 @@ body {
 .nav-link:hover {
   background-color: #9b59b6;
 }
+
 .skills-bar p {
   margin-bottom: 6px;
   font-weight: 600;
@@ -112,7 +114,7 @@ body {
 }
 .progress-bar{
   border-radius: 16px !important;
-  background: #000 !important;
+  background: #E0534B !important;
 }
 /*-------------------------------Resume-----------------------*/
 
@@ -123,7 +125,8 @@ body {
 }
 
 .resume h3 {
-  margin-top: 10px;
+  padding-top: 100px;
+  margin-bottom: 0px;
 }
 .timeline {
   list-style-type: none;
@@ -179,11 +182,12 @@ body {
   margin-bottom: 50px;
 }
 .services-box {
-  background: #f9f9f9;
+  background: #F3EBF6;
   padding: 40px;
   margin-top: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
+  transition: 2.9s;
 }
 .services-box .fa {
   margin: 0 10px;
@@ -200,21 +204,23 @@ body {
   color: #777;
 }
 .services-box:hover {
-  background: #000;
+  background: #FFABB6;
   color: #fff;
   border-top-right-radius:  0;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  transition: 1s;
+  transition: 2s;
 }
 .services-box:hover p {
+  color: #fff;
+}
+.services-box:hover span {
   color: #fff;
 }
 
 /*--------------------------Contact----------------*/
 .contact {
-  padding-top: 10px;
-  padding-bottom: 0;
+  padding-top: 100px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(blog-3.jpg);
   background-position: center;
   background-size: cover;
@@ -237,13 +243,15 @@ body {
   border-radius: 30px;
   border: 2px solid #fff;
   background: transparent;
+  transition: 3s;
 }
 .contact .btn:focus{
   box-shadow: none !important;
 }
  .contact .btn:hover{
    border: 2px solid #000 !important;
-   transition: 0.6s;
+   transition: 2s;
+   background-color: #9B59B6;
  }
  .contact .btn .fa {
    margin-right: 10px;
@@ -280,5 +288,5 @@ body {
 .social-icons ul li:hover {
   padding-left: 30px;
   width: 80px;
-  transition: 1s;
+  transition: 2s;
 }
