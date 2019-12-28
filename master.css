@@ -5,7 +5,7 @@ body {
 }
 #header {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(DSC08851.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(backg.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
