@@ -68,7 +68,7 @@ body {
 /*--change th height of the image------*/
 .profile-img {
   height: 500px;
-  width: 500px;
+  width: 90%;
 }
 .nav-bar {
   top: 0;
