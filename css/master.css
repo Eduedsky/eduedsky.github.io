@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family:  sans-serif;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -74,24 +73,35 @@ body {
 
 /*-------------------------About------------------*/
 .about{
-  padding-top: 100px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 
 }
-/*--change th height of the image------*/
-.profile-img {
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  transition: 2s;
+
+}
+.about .card .card-img-top{
   height: 80%;
-  width: 80%;
-  border-radius: 10px;
-  border-style: outset;
+  width: 100%;
+  padding-bottom: 0px;
   border-color: rgb(228, 201, 201);
   transition: 2s;
 }
-.profile-img:hover {
-  height: 82%;
-  width: 80%;
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgb(31, 216, 161);
+  margin: 8px;
   transition: 2s;
 
+}
+.about .card .card-img-top{
+  height: 80%;
+  width: 100%;
+  padding-bottom: 0px;
+  border-color: rgb(228, 201, 201);
+  transition: 2s;
 }
 .nav-bar {
   top: 0;
@@ -105,7 +115,7 @@ body {
   height: 20px;
 }
 
-.nav-bar .hamburger {
+.nav-bar .fa img{
   font-size: 35px;
   color: #fff;
 }
@@ -150,14 +160,12 @@ body {
 /*-------------------------------Resume-----------------------*/
 
 .resume {
-  margin-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 10px;
   background: #f9f9f9;
 }
 
 .resume h3 {
-  padding-top: 100px;
-  margin-bottom: 0px;
+  padding-top: 10px;
 }
 .timeline {
   list-style-type: none;
@@ -205,12 +213,12 @@ body {
 
 /*----------------services----------------*/
 .services {
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 100px;
 }
 
 .services h1 {
-  margin-bottom: 50px;
+  padding-top: 40px;
 }
 .services-box {
   background: #F3EBF6;
@@ -257,7 +265,7 @@ body {
 
 /*--------------------------Contact----------------*/
 .contact {
-  padding-top: 100px;
+  padding-top: 140px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../images/blog-3.jpg);
   background-position: center;
   background-size: cover;
@@ -266,65 +274,14 @@ body {
 }
 .contact .row {
   padding:  30px 0;
-  font-size:  22px;
+  font-size:  16px;
 }
-.contact .col-md-4 .fa {
-  padding: 10px;
-  font-size: 40px;
+.contact h1{
+  padding-top: 0px;
 }
-
-/*----------------Hire and Resume Buttons-----------------*/
-.contact .btn {
-  padding: 10px 25px 10px 25px;
-  margin: 5px;
-  border-radius: 30px;
-  border: 2px solid #fff;
-  background: transparent;
-  transition: 3s;
-}
-.contact .btn:focus{
-  box-shadow: none !important;
-}
- .contact .btn:hover{
-   border: 2px solid #000 !important;
-   transition: 2s;
-   background-color: #9B59B6;
- }
- .contact .btn .fa {
-   margin-right: 10px;
- }
 .footer {
   background: #000;
   height: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
   color: #fff;
 }
-
-/*------------------Scoial Icons---------------------*/
-/* .social-icons {
-  top: 50%;
-  transform: translateY(-50%);
-  position: sticky;
-  z-index: 1;
-  width: 80px;
-}
-.social-icons ul {
-  padding: initial;
-}
-.social-icons ul li {
-  height: 40px;
-  width: 40px;
-  list-style-type: none;
-  padding-left: 12px;
-  padding-top: 6px;
-  margin-top: 5px;
-  color: #fff;
-  background: #9b59b6;
-  transition: 2s;
-}
-.social-icons ul li:hover {
-  padding-left: 30px;
-  width: 80px;
-  transition: 2s;
-  background-color: #E0534B;
-} */
