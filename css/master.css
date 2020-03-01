@@ -92,7 +92,7 @@ body {
 .about .card .card-img-top{
   height: 80%;
   width: 100%;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   border-color: rgb(228, 201, 201);
   transition: 2s;
 }
