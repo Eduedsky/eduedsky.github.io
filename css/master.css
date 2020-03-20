@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:  sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Roboto", serif; 
+  font-weight: 300;
+  font-size: 1rem;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -96,11 +97,7 @@ body {
   border-color: rgb(228, 201, 201);
   transition: 2s;
 }
-.nav-bar {
-  top: 0;
-  position: sticky;
-  z-index: 2;
-}
+
 .navbar {
   background-color: #000;
 }
@@ -108,32 +105,24 @@ body {
   height: 20px;
 }
 
-.nav-bar .fa img{
-  font-size: 35px;
-  color: #fff;
-}
 .navbar-toggler {
   outline: none ! important;
-  
-}
-
-.navbar-nav {
-  float: right;
-  text-align: right;
-  padding-right: 0;
-  margin-right: 20;
 }
 
 .nav-link {
   color: #fff !important;
 }
+.nav-link:active{
+  background-color:#00A651;
+}
 .nav-link:hover {
-  background-color: #9b59b6;
+  background-color:#00A651;
 }
 
-.skills-bar p {
+.competences li{
   margin-bottom: 6px;
   font-weight: 600;
+  margin: 15px;
 }
 .progress {
   border-radius: 16px !important;
@@ -238,7 +227,7 @@ body {
 
 }
 .services-box:hover {
-  background: #FFABB6;
+  background: #00A651;
   color: #fff;
   border-top-right-radius:  0;
   border-top-left-radius: 50px;
