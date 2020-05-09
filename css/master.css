@@ -15,7 +15,7 @@ body {
 
 #header {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/backg.jpg);
+  background: url(../images/working-at-night.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
@@ -287,7 +287,7 @@ body {
 /*--------------------------Contact----------------*/
 .contact {
   padding-top: 140px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/blog-3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/contact-us-sign-with-phone-on-desk.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
