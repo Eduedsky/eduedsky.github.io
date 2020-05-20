@@ -8,7 +8,6 @@ body {
   text-transform: none;
   line-height: 1;
 
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
 }
@@ -34,7 +33,6 @@ body {
   width: 150px;
   border: 2px;
   transition: 1s;
-
 }
 
 .user-box img:hover {
@@ -46,7 +44,6 @@ body {
   color: #fff;
   font-weight: bold;
   margin: 10px;
-
 }
 
 .user-box p {
@@ -86,9 +83,8 @@ body {
 
 /*-------------------------About------------------*/
 .about {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
-
 }
 
 .card {
@@ -107,7 +103,6 @@ body {
   box-shadow: 0 4px 8px 0 rgb(31, 216, 161);
   margin: 8px;
   transition: 2s;
-
 }
 
 .about .card .card-img-top {
@@ -127,7 +122,7 @@ body {
 }
 
 .navbar-toggler {
-  outline: none ! important;
+  outline: none !important;
 }
 
 .nav-link {
@@ -135,11 +130,11 @@ body {
 }
 
 .nav-link:active {
-  background-color: #00A651;
+  background-color: #00a651;
 }
 
 .nav-link:hover {
-  background-color: #00A651;
+  background-color: #00a651;
 }
 
 .competences li {
@@ -155,15 +150,14 @@ body {
 
 .progress-bar {
   border-radius: 16px !important;
-  background: #E0534B !important;
+  background: #e0534b !important;
   transition: inherit;
 }
 
 .progress-bar:hover {
   border-radius: 16px !important;
-  background: #A758A4 !important;
+  background: #a758a4 !important;
   transition: 2s;
-
 }
 
 /*-------------------------------Resume-----------------------*/
@@ -183,7 +177,7 @@ body {
 }
 
 .timeline:before {
-  content: '';
+  content: "";
   background: #555;
   display: inline-block;
   position: absolute;
@@ -213,7 +207,7 @@ body {
 }
 
 .timeline li:before {
-  content: '';
+  content: "";
   background: #fff;
   display: inline-block;
   position: absolute;
@@ -236,7 +230,7 @@ body {
 }
 
 .services-box {
-  background: #F3EBF6;
+  background: #f3ebf6;
   padding: 40px;
   margin-top: 50px;
   border-top-right-radius: 50px;
@@ -260,11 +254,10 @@ body {
   margin-top: 20px;
   color: rgb(0, 0, 0);
   transition: 1s;
-
 }
 
 .services-box:hover {
-  background: #00A651;
+  background: #00a651;
   color: #fff;
   border-top-right-radius: 0;
   border-top-left-radius: 50px;
@@ -277,7 +270,6 @@ body {
   font-size: 17px;
   margin-top: 23px;
   transition: 1s;
-
 }
 
 .services-box:hover span {
@@ -287,7 +279,8 @@ body {
 /*--------------------------Contact----------------*/
 .contact {
   padding-top: 140px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/contact-us-sign-with-phone-on-desk.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/contact-us-sign-with-phone-on-desk.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
