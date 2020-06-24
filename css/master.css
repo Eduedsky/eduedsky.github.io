@@ -12,7 +12,7 @@ body {
 
 #header {
   height: 100vh;
-  background: url(../images/close-up-of-wooden-plank-326311.jpg);
+  background: url(../images/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
@@ -85,7 +85,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   /* height: 100vh; */
-  background: url(../images/Gradient-Abstract-Shapes-Background-Purple.jpg);
+  background: url(../images/sde.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover; 
@@ -95,7 +95,7 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 18rem;color-adjust: ;
+  width: 18rem;
   /* height: 100%; */
   margin: 8px;
   transition: 2s;
@@ -110,11 +110,7 @@ body {
   margin: 8px;
   transition: 2s;
 }
-.about .card{
-  border-bottom-left-radius: 50px;
-  transition: 2s;
 
-}
 .about .card .card-img-top {
   height: 100%;
   width: auto;
@@ -176,14 +172,6 @@ body {
 .resume {
   padding-top: 10px;
   background: #f9f9f9;
-  /* height: 100vh; */
-  background: url(../images/hot-pink-minimalist-wallpapers-desktop-background-For-Full-Resolution-Wallpaper.jpg);
-  background-size: auto;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  color: black;
-  
 }
 
 .resume h3 {
@@ -242,15 +230,6 @@ body {
 .services {
   padding-top: 40px;
   padding-bottom: 100px;
-  padding-top: 10px;
-  background: #f9f9f9;
-  /* height: 100vh; */
-  background: url(../image/sde.jpg);
-  background-size: auto;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  
 }
 
 .services h1 {
