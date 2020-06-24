@@ -1,5 +1,6 @@
 # Portfolio
-This is my personal portfolio. Use this website to know more about me
-Written In HTML,CSS,JS, BOOTSTRAP
+Edwin Karanja's Portfolio Website
 
-It also contains my projects
+This Website is written in HTML, CSS, JAVASCRIPT and BOOTSTRAP.
+This site contains information about Edwin Karanja, who he is, his education and work.
+Some of the projects that i have undertaken are linked in this portfolio
