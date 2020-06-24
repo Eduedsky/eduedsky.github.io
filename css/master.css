@@ -84,7 +84,7 @@ body {
   margin: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
-  height: 100vh;
+  /* height: 100vh; */
   background: url(../images/sde.jpg);
   background-size: auto;
   background-position: center;
