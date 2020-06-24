@@ -17,6 +17,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  color: black;
 }
 
 .user-box {
@@ -81,16 +82,16 @@ body {
 
 /*-------------------------About------------------*/
 .about {
-  margin: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
   /* height: 100vh; */
-  background: url(../images/sde.jpg);
-  background-size: auto;
+  /* background: url(../images/sde.jpg); */
+  /* background-size: auto;
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: cover; */
+  /* background-attachment: fixed; */
 }
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -105,7 +106,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px 0 rgb(31, 216, 161);
+  box-shadow: 0 4px 8px 0 #8e3db5;
   margin: 8px;
   transition: 2s;
 }
@@ -119,7 +120,8 @@ body {
 }
 
 .navbar {
-  background-color: #000;
+  background-color: #8e3db5;
+  opacity: .9;
 }
 
 .navbar-logo img {
