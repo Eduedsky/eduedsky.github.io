@@ -299,10 +299,10 @@ body {
 /*--------------------------Contact----------------*/
 .contact {
   padding-top: 140px;
-  background: url(../images/close-up-of-wooden-plank-326311.jpg);
+  background: url(../images/stefan-cosma-eFv8ZSVLxNE-unsplash.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   color: #fff;
 }
 
