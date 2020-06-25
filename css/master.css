@@ -31,7 +31,7 @@ body {
   border-radius: 50%;
   width: 150px;
   border: 2px;
-  transition: 1s;
+  transition: 2s;
 }
 
 .user-box img:hover {
@@ -299,8 +299,7 @@ body {
 /*--------------------------Contact----------------*/
 .contact {
   padding-top: 140px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../images/contact-us-sign-with-phone-on-desk.jpg);
+  background: url(../images/close-up-of-wooden-plank-326311.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
