@@ -102,15 +102,15 @@ body {
 }
 
 .about .card {
-  transition: 2s;
+  transition: 3s;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
 
 .about .card:hover {
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-  transition: 2s;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  transition: 1s;
 }
 .card-footer {
   padding-top: 10px;
