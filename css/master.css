@@ -17,7 +17,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  color: black;
+  /* color: black; */
 }
 
 .user-box {
@@ -88,8 +88,8 @@ body {
   background: url(../images/bs.jpg);
   background-size: auto;
   background-position: center;
-  background-size: cover; 
-  /* background-attachment: fixed; */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -188,9 +188,10 @@ body {
   padding-top: 40px;
   padding-bottom: 100px;
   background: url(../images/key-min.jpg);
-  background-position: bottom;
+  background-size: auto;
+  background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   color: #F3F3F3;  
 }
 
@@ -251,6 +252,7 @@ body {
   padding-top: 40px;
   padding-bottom: 100px;
   background: url(../images/keyboard-min.jpg);
+  background-size: auto;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -323,9 +325,10 @@ body {
 .contact {
   padding-top: 140px;
   background: url(../images/phone-min.jpg);
+  background-size: auto;
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   color: #fff;
 }
 
