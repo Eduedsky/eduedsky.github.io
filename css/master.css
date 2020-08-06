@@ -94,11 +94,12 @@ body {
 
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(129, 59, 59, 0.2);
   width: 18rem;
   /* height: 100%; */
   margin: 8px;
   transition: 2s;
+  /* background-color: #b94545; */
 }
 
 .about .card {
@@ -106,6 +107,7 @@ body {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
+
 
 .about .card:hover {
   border-bottom-left-radius: 60px;
