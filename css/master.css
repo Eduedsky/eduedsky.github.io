@@ -89,7 +89,7 @@ body {
   background-size: auto;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 
@@ -187,12 +187,12 @@ body {
   /* background: #f9f9f9; */
   padding-top: 40px;
   padding-bottom: 100px;
-  background: url(../images/back.jpg);
+  background: url(../images/divide.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  color: #F3F3F3;  
+  color: rgb(0, 0, 0);  
 }
 
 .resume h3 {
@@ -206,7 +206,7 @@ body {
 
 .timeline:before {
   content: "";
-  background: rgb(246, 216, 216);
+  background: rgb(255, 255, 255);
   display: inline-block;
   position: absolute;
   left: 29px;
@@ -251,7 +251,7 @@ body {
 .services {
   padding-top: 40px;
   padding-bottom: 100px;
-  background: url(../images/keyboard-min.jpg);
+  background: url(../images/zac.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
