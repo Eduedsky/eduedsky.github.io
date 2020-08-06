@@ -202,6 +202,14 @@ body {
 .timeline {
   list-style-type: none;
   position: relative;
+  padding: 30px;
+  margin-top: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  /* transition: 2.9s; */
+  background-image: linear-gradient(to bottom right, #a3a3a3, #42464b);
 }
 
 .timeline:before {
@@ -211,7 +219,7 @@ body {
   position: absolute;
   left: 29px;
   width: 2px;
-  height: 100%;
+  height: 80%;
   z-index: 1;
 }
 
@@ -272,7 +280,8 @@ body {
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
   /* transition: 2.9s; */
-  background-image: linear-gradient(to bottom right, #a3a3a3, #42464b);}
+  background-image: linear-gradient(to bottom right, #a3a3a3, #42464b);
+}
 
 .services-box .fa {
   margin: 0 10px;
