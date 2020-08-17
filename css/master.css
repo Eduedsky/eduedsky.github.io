@@ -101,6 +101,9 @@ body {
   transition: 2s;
   /* background-color: #b94545; */
 }
+.card .card-text{
+  text-align: left;
+}
 
 .about .card {
   transition: 3s;
@@ -163,23 +166,6 @@ body {
   margin-bottom: 6px;
   font-weight: 600;
   margin: 15px;
-}
-
-.progress {
-  border-radius: 16px !important;
-  margin-bottom: 10px;
-}
-
-.progress-bar {
-  border-radius: 16px !important;
-  background: #e0534b !important;
-  transition: inherit;
-}
-
-.progress-bar:hover {
-  border-radius: 16px !important;
-  background: #a758a4 !important;
-  transition: 2s;
 }
 
 /*-------------------------------Resume-----------------------*/
