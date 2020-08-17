@@ -135,6 +135,23 @@ body {
   transition: 2s;
 }
 
+.about .card a:link {
+  text-decoration: none;
+}
+.about .card .card-body img {
+  transition: 1s;
+}
+.about .card .card-body img:hover {
+  transition: 1s;
+  height: 50px;
+}
+.about .card .card-body .linkedin {
+  transition: 1s;
+}
+.about .card .card-body .linkedin:hover {
+  transition: 1s;
+  height: 60px;
+}
 .navbar {
   background-color: #414141;
   opacity: .9;
