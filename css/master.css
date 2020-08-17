@@ -321,7 +321,7 @@ body {
 /*--------------------------Contact----------------*/
 .contact {
   padding-top: 140px;
-  background: url(../images/lap-min.jpg);
+  background: url(../images/phone-min.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
@@ -337,6 +337,14 @@ body {
 .contact h1 {
   padding-top: 0px;
 }
+.contact .btn {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contact .btn:hover {
+  background: #d15656;
+}
+
 
 .footer {
   background: rgb(56, 51, 51);
