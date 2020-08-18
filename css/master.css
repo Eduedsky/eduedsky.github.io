@@ -152,6 +152,25 @@ body {
   transition: 1s;
   height: 60px;
 }
+.projects2 .card {
+  background-color: #c2b6b6;
+  background-image: linear-gradient(to bottom right, #a3a3a3, #38393a);
+
+}
+.projects2 .card:hover {
+  box-shadow: 0 4px 8px 0 rgb(138, 129, 129);
+  margin: 8px;
+  transition: 2s;
+}
+.projects2 .card .btn {
+  color: #000;
+  transition: 2s;
+
+}
+.projects2 .card .btn:hover {
+  color: #fff;
+  transition: 2s;
+}
 .navbar {
   background-color: #414141;
   opacity: .9;
@@ -202,6 +221,10 @@ body {
 
 .resume h3 {
   padding-top: 10px;
+}
+.resume .websitelink {
+  text-decoration: none;
+  color: rgb(224, 214, 214);
 }
 
 .timeline {
@@ -355,13 +378,11 @@ body {
   padding-top: 0px;
 }
 .contact .btn {
-  border-radius: 10px;
   cursor: pointer;
-}
-.contact .btn:hover {
-  background: #d15656;
-}
+  transition: 1s;
+  color: #000;
 
+}
 
 .footer {
   background: rgb(56, 51, 51);
