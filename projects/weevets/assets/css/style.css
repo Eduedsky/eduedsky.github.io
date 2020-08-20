@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #c955f6;
+  color: #cfa8df;
   text-decoration: none;
 }
 
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: rgb(185, 83, 226);
+  color: rgb(229, 167, 253);
 }
 
 .nav-menu .drop-down > a:after {
@@ -1292,8 +1292,8 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  border-color: #68A4C4;
-  color: #68A4C4;
+  border-color: #762288;
+  color: #762288;
 }
 
 .portfolio .portfolio-item {
