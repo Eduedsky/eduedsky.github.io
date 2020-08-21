@@ -930,12 +930,14 @@ section {
 
 .about ul li {
   padding-bottom: 10px;
+  display: inline-flex;
+  margin: 0 5px;
 }
 
 .about ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #68A4C4;
+  color: rgb(174, 59, 202);
 }
 
 .about p:last-child {
@@ -948,7 +950,7 @@ section {
 .facts .counters span {
   font-size: 48px;
   display: block;
-  color: #68A4C4;
+  color: #721D88;
 }
 
 .facts .counters p {
@@ -1115,7 +1117,7 @@ section {
 }
 
 .service-details .card-title a {
-  color: #1e4356;
+  color: #721D88;
   transition: 0.3s;
 }
 
@@ -1123,28 +1125,28 @@ section {
   color: #5e5e5e;
 }
 
-.service-details .read-more a {
+/* .service-details .read-more a {
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
   transition: 0.3s;
-}
+} */
 
-.service-details .read-more a:hover {
+/* .service-details .read-more a:hover {
   color: #68A4C4;
-}
+} */
 
 .service-details .card:hover img {
   transform: scale(1.1);
 }
 
 .service-details .card:hover .card-body {
-  border-color: #68A4C4;
+  border-color: rgb(175, 81, 199);
 }
 
 .service-details .card:hover .card-body .card-title a {
-  color: #68A4C4;
+  color: rgb(175, 81, 199);
 }
 
 /*--------------------------------------------------------------

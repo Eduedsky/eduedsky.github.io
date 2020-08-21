@@ -153,8 +153,8 @@ body {
   height: 60px;
 }
 .projects2 .card {
-  background-color: #c2b6b6;
-  background-image: linear-gradient(to bottom right, #a3a3a3, #38393a);
+  background-color: #dfdfdf;
+  /* background-image: linear-gradient(to bottom right, #a3a3a3, #38393a); */
 
 }
 .projects2 .card:hover {
