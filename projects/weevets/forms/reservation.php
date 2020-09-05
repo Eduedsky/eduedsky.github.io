@@ -1,4 +1,6 @@
 <?php
+
+if (isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -7,8 +9,11 @@
     $date = $_POST['date'];
     $message = $_POST['message'];
 
-    $email_from = 'Weevets Reservation';
-    $email_subject = 'New Reservation';
+    $mailTo = "teamcyber540@gmail.com";
+    $headers = "From: ".$email;
+
+    // $email_from = 'Weevets Reservation';
+    // $email_subject = 'New Reservation';
     $email_body = "Name: $name.\n".
                   "Email: $email.\n".
                   "Phone Number: $phone.\n".
@@ -17,6 +22,6 @@
                   "Date of the Event: $date.\n".
                   "Message: $message.\n";
     
-    $to = "edsky120@gmail.com";
-
+    mail($mailTo, $email_body);
+}
 ?>
