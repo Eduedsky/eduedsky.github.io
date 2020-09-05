@@ -60,7 +60,7 @@
               <li><a href="index-2.html">Weevets School of Events</a></li>
             </ul>
           </li>
-          <li class="active"><a href="contact.html">Contact Us</a></li>
+          <li class="active"><a href="contact.html">Reservation</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -121,27 +121,77 @@
           <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="Your Telephone Number"  pattern="(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})" data-msg="Please enter a correct telephone number" />
-                  <div class="validate"></div>
-                </div>
+                
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
+
+                <div class="col-md-6 form-group">
+                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="Your Telephone Number"  pattern="(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})" data-msg="Please enter a correct telephone number" />
+                  <div class="validate"></div>
+                </div>
+                
                 <div class="col-md-6 form-group">
                   <input type="number" class="form-control" name="number" id="number" placeholder="No of Guests" value="1" min="1" max="2000"/>
                   <div class="validate"></div>
                 </div>
+
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email Address" size="30" required/>
+                  <div class="validate"></div>
+                </div>
+
                 <div class="col-md-6 form-group">
                   <input type="date" class="form-control" name="date" id="date" placeholder="Date of the Event" data-rule="date" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>              
+
+                <div id="list1" class="col-md-6 dropdown-check-list form-group" tabindex="100">
+                  <span class="anchor">Select Service</span>
+                  <ul class="items">
+                      <li>Catering
+                        <ul>
+                          <li><input type="checkbox">Food</li>
+                          <li><input type="checkbox">Drinks</li>
+                          <li><input type="checkbox">Cakes</li>
+                          <li><input type="checkbox">Tents</li>
+                          <li><input type="checkbox">Chairs</li>
+                        </ul>
+                      </li>
+                      <li>Decors
+                        <ul>
+                          <li><input type="checkbox">Wedding Parties</li>
+                          <li><input type="checkbox">Bridal Parties</li>
+                          <li><input type="checkbox">Flowers</li>
+                          <li><input type="checkbox">Car Decoration</li>
+                          <li><input type="checkbox">Decorated Tent</li>
+                          <li><input type="checkbox">Decorated Chair</li>
+                        </ul>
+                      </li>     
+                                  
+                      <li>Planning
+                        <ul>
+                          <li><input type="checkbox">Event Planning</li>
+                          <li><input type="checkbox">Party Planning</li>
+                        </ul>
+                      </li>   
+                  </ul>
+                  <div class="validate"></div>
+                </div>
+            </div>
+        
+            <script type="text/javascript">
+        
+                var checkList = document.getElementById('list1');
+                checkList.getElementsByClassName('anchor')[0].onclick = function (evt) {
+                    if (checkList.classList.contains('visible'))
+                        checkList.classList.remove('visible');
+                    else
+                        checkList.classList.add('visible');
+                }
+            </script>
+
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Tell us more about your Event"></textarea>
                 <div class="validate"></div>
