@@ -33,10 +33,10 @@
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['tel'], 'Telephone No');
+  $contact->add_message( $_POST['phone'], 'Telephone No');
   $contact->add_message( $_POST['date'], 'Event Date');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['checkbox'], 'Services');
+  $contact->add_message( $_POST['service'], 'Services');
   $contact->add_message( $_POST['message'], 'Message');
 
 
