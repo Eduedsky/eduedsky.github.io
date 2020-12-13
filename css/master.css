@@ -92,7 +92,6 @@ body {
   /* background-attachment: fixed; */
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(129, 59, 59, 0.2);
   width: 18rem;
@@ -101,7 +100,7 @@ body {
   transition: 2s;
   /* background-color: #b94545; */
 }
-.card .card-text{
+.card .card-text {
   text-align: left;
 }
 
@@ -110,7 +109,6 @@ body {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-
 
 .about .card:hover {
   border-bottom-left-radius: 60px;
@@ -122,7 +120,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px 0 #83DCFF;
+  box-shadow: 0 4px 8px 0 #83dcff;
   margin: 8px;
   transition: 2s;
 }
@@ -155,17 +153,15 @@ body {
 .projects2 .card {
   background-color: #dfdfdf;
   /* background-image: linear-gradient(to bottom right, #a3a3a3, #38393a); */
-
 }
 .projects2 .card:hover {
-  box-shadow: 0 4px 8px 0 rgb(138, 129, 129);
+  box-shadow: 0 6px 8px 0 rgb(221, 220, 220);
   margin: 8px;
   transition: 2s;
 }
 .projects2 .card .btn {
   color: #000;
   transition: 2s;
-
 }
 .projects2 .card .btn:hover {
   color: #fff;
@@ -173,7 +169,7 @@ body {
 }
 .navbar {
   background-color: #414141;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .navbar-logo img {
@@ -194,7 +190,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color:#1a1919;
+  background-color: #1a1919;
   transition: 1s;
 }
 
@@ -216,7 +212,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  color: rgb(0, 0, 0);  
+  color: rgb(0, 0, 0);
 }
 
 .resume h3 {
@@ -357,7 +353,6 @@ body {
   color: #fff;
 }
 
-
 /*--------------------------Contact----------------*/
 .contact {
   padding-top: 140px;
@@ -381,7 +376,6 @@ body {
   cursor: pointer;
   transition: 1s;
   color: #000;
-
 }
 
 .footer {

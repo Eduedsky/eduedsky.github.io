@@ -1,37 +1,37 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    background-color: black;
+  background-color: black;
 }
 
 .projects1 {
-    padding-top: 20px;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .projects2 {
-    padding-top: 20px;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .card {
-    text-align: center;
-    margin: 10px;
+  text-align: center;
+  margin: 10px;
 }
 
 .card-text {
-    padding-top: 5px;
-    margin-left: 5px;
-    text-align: left;
+  padding-top: 5px;
+  margin-left: 5px;
+  text-align: left;
 }
 
 .card-text {
-    color: black;
+  color: black;
 }
 
 .card-header {
-    color: black;
+  color: black;
 }
