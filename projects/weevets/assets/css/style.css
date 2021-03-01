@@ -39,10 +39,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #c116F2;
+  background: #9f02ca;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 50px;
   transition: all 0.4s;
 }
 
@@ -904,6 +904,15 @@ section {
   margin-bottom: 0;
 }
 
+.features .catering {
+  padding-top: 50px;
+}
+.features .cakes {
+  padding-top: 100px;
+}
+.features .tent {
+  padding-top: 100px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1312,6 +1321,8 @@ section {
 
 .portfolio .portfolio-item .portfolio-info h3 {
   font-size: 22px;
+  color: #fff;
+
 }
 
 .portfolio .portfolio-item .portfolio-info h3 a {
@@ -1339,6 +1350,7 @@ section {
   top: calc(50% - 30px);
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1346,44 +1358,34 @@ section {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-container {
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-carousel {
-  position: relative;
-  z-index: 1;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
-  text-align: left;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 10px 0 0;
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #68A4C4;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #68A4C4 !important;
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #68A4C4;
 }
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  position: absolute;
-  right: 0;
-  bottom: -70px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  z-index: 2;
+  box-shadow: 0px 0 30px rgba(30, 67, 86, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
+  color: #fff;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1402,29 +1404,19 @@ section {
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .portfolio-details .portfolio-description h2 {
-  width: 50%;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .portfolio-details .portfolio-description p {
-  padding: 0 0 0 0;
+  padding: 0;
 }
 
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
-    width: 100%;
-  }
-  .portfolio-details .portfolio-info {
-    position: static;
-    margin-top: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Team
@@ -1518,10 +1510,10 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #68A4C4;
+  color: #c116F2;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #a2cce3;
+  border: 2px dotted #c116F2;
 }
 
 .contact .info-box h3 {
@@ -1601,7 +1593,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #68A4C4;
+  background-color: #c116F2;
 }
 
 .contact .php-email-form input {
@@ -1643,51 +1635,6 @@ section {
   }
 }
 
-.dropdown-check-list {
-  display: inline-block;
-}
-.dropdown-check-list .anchor {
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-  padding: 5px 50px 5px 10px;
-  border: 1px solid #ccc;
-}
-.dropdown-check-list .anchor:after {
-  position: absolute;
-  content: "";
-  border-left: 2px solid black;
-  border-top: 2px solid black;
-  padding: 5px;
-  right: 10px;
-  top: 20%;
-  -moz-transform: rotate(-135deg);
-  -ms-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-}
-.dropdown-check-list .anchor:active:after {
-  right: 8px;
-  top: 21%;
-}
-.dropdown-check-list ul.items {
-  padding: 2px;
-  display: none;
-  margin: 0;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-.dropdown-check-list ul.items li {
-  list-style: none;
-}
-.dropdown-check-list.visible .anchor {
-  color: #0094ff;
-}
-.dropdown-check-list.visible .items {
-  display: block;
-}
-
 /*--------------------------------------------------------------
 # Map
 --------------------------------------------------------------*/
@@ -1722,7 +1669,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #a2cce3;
+  color: #fff;
 }
 
 #footer .footer-newsletter form {
@@ -1761,8 +1708,8 @@ section {
 
 #footer .footer-top {
   background: #c116F2;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  border-top: 1px solid #de69ff;
+  border-bottom: 1px solid #de69ff;
   padding: 60px 0 30px 0;
 }
 
@@ -1775,7 +1722,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #a2cce3;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -1788,30 +1735,24 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #1e4356;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
+  margin-top: 0;
   margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
   width: 36px;
   height: 36px;
   transition: 0.3s;
 }
+#footer .footer-top .social-links .facebook {
+  height: 32px;
+}
 
-#footer .footer-top .social-links a:hover {
-  background: #68A4C4;
-  color: #fff;
-  text-decoration: none;
+#footer .footer-top .social-links .instagram{
+  height: 32px;
 }
 
 #footer .footer-top h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #a2cce3;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1828,7 +1769,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #a2cce3;
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1856,6 +1797,9 @@ section {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact a {
+  color: #fff;
 }
 
 #footer .footer-top .footer-contact p {

@@ -68,7 +68,7 @@
             </ul>
           </li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li class="active"><a href="contact.html">Contact Us</a></li>
+          <li><a class="active" href="contact.html">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -78,22 +78,6 @@
 
 
   <main id="main">
-
-    <!-- ======= Contact Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Contact</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Contact</li>
-          </ol>
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
     <!-- ======= Contact Section ======= -->
     <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
       <div class="container">
@@ -103,11 +87,20 @@
           <div class="col-lg-6">
 
             <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>Weevets Events Services, Ruiru Kenya</p>
+                </div>
+              </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
-                  <a href="mailto:pnjuguna@weevetsevents.com"><p>pnjuguna@weevetsevents.com</p></a>
+                  <a href="mailto:pnjuguna@weevetsevents.com"><p>pnjuguna@weevetsevents.com</p></a><span>OR</span> <br> 
+                  <a href="mailto:info@weevetsevents.com"><p>info@weevetsevents.com</p></a>
+
                 </div>
               </div>
 
@@ -115,7 +108,9 @@
                 <div class="info-box">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
-                  <a href="tel:+254721444314"><p>+254721444314</p></a>          
+                  <a href="tel:+254721444314"><p>+254721444314</p></a><span>OR</span><br>
+                  <a href="tel:+254737443194"><p>+254737443194</p></a>
+       
                 </div>
               </div>
                           
@@ -124,89 +119,32 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="contact form/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-
-                <div class="col-md-6 form-group">
-                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="Your Telephone Number"  pattern="(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})" data-msg="Please enter a correct telephone number" />
-                  <div class="validate"></div>
-                </div>
-                
-                <div class="col-md-6 form-group">
-                  <input type="number" class="form-control" name="number" id="number" placeholder="No of Guests" min="1" max="2000"/>
-                  <div class="validate"></div>
-                </div>
-
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email Address" size="30" required/>
-                  <div class="validate"></div>
-                </div>
-
-                <div class="col-md-6 form-group">
-                  <input type="date" class="form-control" name="date" id="date" placeholder="Date of the Event" data-rule="date" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-
-                <div id="list1" class="col-md-6 dropdown-check-list form-group" tabindex="100">
-                  <span class="anchor">Select Service</span>
-                  <ul class="items">
-                      <li>Catering
-                        <ul>
-                          <li><input type="checkbox" name="service">Food</li>
-                          <li><input type="checkbox" name="service">Drinks</li>
-                          <li><input type="checkbox" name="service">Cakes</li>
-                          <li><input type="checkbox" name="service">Tents</li>
-                          <li><input type="checkbox" name="service">Chairs</li>
-                        </ul>
-                      </li>
-                      <li>Decors
-                        <ul>
-                          <li><input type="checkbox" name="service">Wedding Parties</li>
-                          <li><input type="checkbox" name="service">Bridal Parties</li>
-                          <li><input type="checkbox" name="service">Flowers</li>
-                          <li><input type="checkbox" name="service">Car Decoration</li>
-                          <li><input type="checkbox" name="service">Decorated Tent</li>
-                          <li><input type="checkbox" name="service">Decorated Chair</li>
-                        </ul>
-                      </li>     
-                                  
-                      <li>Planning
-                        <ul>
-                          <li><input type="checkbox" name="service">Event Planning</li>
-                          <li><input type="checkbox" name="service">Party Planning</li>
-                        </ul>
-                      </li>   
-                  </ul>
-                  <div class="validate"></div>
-                </div>
-            </div>
-        
-            <script type="text/javascript">
-        
-                var checkList = document.getElementById('list1');
-                checkList.getElementsByClassName('anchor')[0].onclick = function (evt) {
-                    if (checkList.classList.contains('visible'))
-                        checkList.classList.remove('visible');
-                    else
-                        checkList.classList.add('visible');
-                }
-            </script>
-
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Tell us more about your Event"></textarea>
-                <div class="validate"></div>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group mt-3 mb-3">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
               </div>
-              <div class="mb-3">
+              <div class="row">
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="0712345678"  pattern="(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})" data-msg="Please enter a correct telephone number" />
+                  <div class="validate"></div>
+                </div>
+                
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Reservation</button></div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
 
@@ -232,32 +170,45 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-xs-4 col-sm-4 col-lg-4 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Menu</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Reservation</a></li>
-
+              <li><i class="bx bx-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
 
-          <div class="col-xs-4 col-sm-4 col-lg-4  footer-contact">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Services Offered</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> Catering</li>
+              <li><i class="bx bx-chevron-right"></i> Cakes & Pasteries</li>
+              <li><i class="bx bx-chevron-right"></i> Tents & Decorations</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              <strong>Phone: </strong><a href="tel:+254721444314">+254721444314</a><br>
-              <strong>Email:</strong><a href="mailto:pnjuguna@weevetsevents.com"> pnjuguna@weevetsevents.com</a>
+              <strong>Phone 1: </strong><a href="tel:+254721444314">+254721444314</a><br>
+              <strong>Phone 2: </strong><a href="tel:+254737443194">+254737443194</a><br><br>
+
+              <strong>Email 1:</strong><a href="mailto:pnjuguna@weevetsevents.com"> pnjuguna@weevetsevents.com</a><br>
+              <strong>Email 2:</strong><a href="mailto:info@weevetsevents.com"> info@weevetsevents.com</a><br>
             </p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/Teamweevets/" target="_blank"><img src="assets/images/facebook.png" class="facebook" alt=""></a>
+              <a href="https://www.instagram.com/Teamweevets/" target="_blank"><img src="assets/images/instagram.png" class="instagram" alt=""></a>
+            </div>
 
           </div>
 
-          <div class="col-xs-4 col-sm-4 col-lg-4  footer-info">
+          <div class="col-lg-3 col-md-6  footer-info">
             <h3>About Weevets Events Services</h3>
               <p>We are in the business of making your event memorable. <br>We value your partnership with Weevets Cake House</p>
-            <div class="social-links mt-3">
-              <a href="https://www.facebook.com/Teamweevets/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/Teamweevets/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
+
           </div>
 
         </div>
@@ -268,17 +219,11 @@
       <div class="copyright">
         &copy; Copyright <strong><span>Team Weevets</span></strong>. All Rights Reserved
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div> 
     </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  </footer> 
+   <!-- End Footer -->
+   
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
