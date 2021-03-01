@@ -522,7 +522,7 @@ section {
 
 .breadcrumbs {
   margin-top: 73px;
-  text-align: center;
+  /* text-align: center; */
   background: #9f02ca;
   padding: 30px 0;
   color: #fff;
