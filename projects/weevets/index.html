@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Team Weevets</title>
+  <title>Weevets Events</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -17,13 +17,13 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -43,37 +43,82 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
-    <div class="container">
-
-      <div class="logo float-left">
-        <a href="index.html"><img src="assets/images/weevetslogo.png" alt="" class="img-fluid"></a>
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+  
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/images/weevets.png" alt="" class="img-fluid"></a>
       </div>
-
-      <nav class="nav-menu float-right d-none d-lg-block">
+  
+      <nav id="navbar" class="navbar">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a class="active " href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="services.html">Services</a></li> -->
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Cakes & Pasteries</a></li>
+              <li><a href="#">Catering</a></li>
+              <li><a href="#">Tents & Decoration</a></li>
+            </ul>
+          </li>
           <li><a href="gallery.html">Gallery</a></li>
-
-          <li><a href="contact.html">Reservation</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
-
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+  
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
+      <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Weevets <span>Events Services</span></h2>
+          <h2 class="animate__animated animate__fadeInDown">Welcome to Weevets <span>Events Services</span></h2>
           <p class="animate__animated animate__fadeInUp">We are in the business of making your event memorable.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
       </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Cake & Pasteries</h2>
+          <p class="animate__animated animate__fadeInUp">Weevets is your one stop supplier of all your quality and tasty baking needs and solutions.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Catering</h2>
+          <p class="animate__animated animate__fadeInUp">We offer catering services for our clientele and we are passionate about sourcing, cooking and serving the best fresh food to our Clients, their staff and guests.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Tent & Decoration</h2>
+          <p class="animate__animated animate__fadeInUp">We pride in uniqueness and extra-ordinary Décor for all occasions. Our team creates stunning setups that are true to your preferred theme and objectives. Weevets team walks with you from conception to execution to create perfect, innovative and stylish events with deco.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
 
     </div>
   </section><!-- End Hero -->
@@ -81,7 +126,7 @@
   <main id="main">
 
     <!-- ======= Why Us Section ======= -->
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+    <!-- <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
       <div class="container">
 
         <div class="row">
@@ -113,7 +158,8 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section> -->
+    <!-- End Why Us Section -->
 
     <!-- ======= Features Section ======= -->
     <section class="features">
@@ -140,7 +186,7 @@
             <img src="assets/images/gallery/weevetscake.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Cakes</h3>
+            <h3>Cakes & Pasteries</h3>
             <p class="font-italic">
               Weevets is your one stop supplier of all your quality and tasty baking needs and solutions.  We provide freshly baked products ranging from cakes, cookies and pastries for various events such as birthdays, weddings, corporate functions, anniversaries, engagements and basically all events that deserves a cake.  We customize the cakes to your specifications, style and flavours of your choice. 
             </p>
@@ -152,9 +198,14 @@
             <img src="assets/images/gallery/tents.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 ">
-            <h3>Tents and Chairs</h3>
+            <h3>Tents & Decorations</h3>
             <p>We provide beautiful and stylish tents and chairs for all occasions and weather. We have executive tents and chairs to suit any event both indoors to outdoors.</p>
-            <ul style="list-style-type: circle;">
+
+            <p>We pride in uniqueness and extra-ordinary Décor for all occasions. Our team creates stunning setups that are true to your preferred theme and objectives. Weevets team walks with you from conception to execution to create perfect, innovative and stylish events with deco. </p>
+            <p>
+              We have a variety of fabric colors and lighting options and we can formulate any colour scheme as per your theme. We also offer range of deco options such as, ceiling draping, lighting and backdrops.
+            </p>
+            <!-- <ul style="list-style-type: circle;">
               <h4>Tent Type</h4>
                 <li style="display: inline"><i class="icofont-check"></i> Hexagon tents.</li>
                 <li style="display: inline"><i class="icofont-check"></i> High peak Tents</li>
@@ -168,11 +219,11 @@
                 <li style="display: inline"><i class="icofont-check"></i> Dressed seats</li>
                 <li style="display: inline"><i class="icofont-check"></i> Chiavari seats.</li>
                 <li style="display: inline"><i class="icofont-check"></i> Banquet and conference seats </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
 
-        <div class="row" data-aos="fade-up">
+        <!-- <div class="row" data-aos="fade-up">
           <div class="col-md-5 pt-5 order-1 order-md-2">
             <img src="assets/images/gallery/car2.jpg" class="img-fluid" alt="">
           </div>
@@ -195,7 +246,7 @@
                 <li style="display: inline"><i class="icofont-check"></i>Sound and DJ services</li>
             </ul>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Features Section -->
@@ -215,8 +266,8 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Reservation</a></li>
-
+              <li><i class="bx bx-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
 
@@ -250,19 +301,17 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
