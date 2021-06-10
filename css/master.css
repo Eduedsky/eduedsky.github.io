@@ -12,12 +12,14 @@ body {
 
 #header {
   height: 100vh;
-  background: url(../images/lap-min.jpg);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ), url(../images/nathan-riley-9q3I8XhesQI-unsplash.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  /* color: black; */
 }
 
 .user-box {
@@ -85,11 +87,17 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   /* height: 100vh; */
-  background: url(../images/bs.jpg);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ),url(../images/remy_loz-3S0INpfREQc-unsplash.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
+}
+#about_me {
+  color: white;
 }
 
 .card {
@@ -98,7 +106,7 @@ body {
   /* height: 100%; */
   margin: 8px;
   transition: 2s;
-  /* background-color: #b94545; */
+  
 }
 .card .card-text {
   text-align: left;
@@ -450,7 +458,10 @@ body {
 /*--------------------------Contact----------------*/
 .contact {
   padding-top: 140px;
-  background: url(../images/phone-min.jpg);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ), url(../images/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg);
   background-size: auto;
   background-position: center;
   background-size: cover;
@@ -473,8 +484,15 @@ body {
 }
 
 .footer {
-  background: rgb(56, 51, 51);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ), url(../images/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg);
+  background-size: auto;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;  
   height: 50px;
   margin-top: 50px;
-  color: #fff;
 }
